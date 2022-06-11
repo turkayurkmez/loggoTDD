@@ -1,0 +1,15 @@
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\FizzBuzz.Game\FizzBuzz.Game\bin\Debug\net6.0\FizzBuzz.Game.exe
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\FizzBuzz.Game\FizzBuzz.Game\bin\Debug\net6.0\FizzBuzz.Game.deps.json
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\FizzBuzz.Game\FizzBuzz.Game\bin\Debug\net6.0\FizzBuzz.Game.runtimeconfig.json
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\FizzBuzz.Game\FizzBuzz.Game\bin\Debug\net6.0\FizzBuzz.Game.dll
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\FizzBuzz.Game\FizzBuzz.Game\bin\Debug\net6.0\FizzBuzz.Game.pdb
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\FizzBuzz.Game\FizzBuzz.Game\obj\Debug\net6.0\FizzBuzz.Game.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\FizzBuzz.Game\FizzBuzz.Game\obj\Debug\net6.0\FizzBuzz.Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\FizzBuzz.Game\FizzBuzz.Game\obj\Debug\net6.0\FizzBuzz.Game.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\FizzBuzz.Game\FizzBuzz.Game\obj\Debug\net6.0\FizzBuzz.Game.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\FizzBuzz.Game\FizzBuzz.Game\obj\Debug\net6.0\FizzBuzz.Game.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\FizzBuzz.Game\FizzBuzz.Game\obj\Debug\net6.0\FizzBuzz.Game.dll
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\FizzBuzz.Game\FizzBuzz.Game\obj\Debug\net6.0\refint\FizzBuzz.Game.dll
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\FizzBuzz.Game\FizzBuzz.Game\obj\Debug\net6.0\FizzBuzz.Game.pdb
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\FizzBuzz.Game\FizzBuzz.Game\obj\Debug\net6.0\FizzBuzz.Game.genruntimeconfig.cache
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\FizzBuzz.Game\FizzBuzz.Game\obj\Debug\net6.0\ref\FizzBuzz.Game.dll

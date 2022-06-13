@@ -1,6 +1,8 @@
-﻿namespace Catalog.Web.API.Models
+﻿using Catalog.Data;
+
+namespace Catalog.Web.API.Models
 {
-    public class Speaker
+    public class Speaker :IEntity
     {
         public int Id { get; set; }
         public string Name { get; set; }

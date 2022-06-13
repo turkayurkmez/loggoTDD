@@ -1740,10 +1740,21 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
+      "Catalog.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Catalog.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Catalog.Data.dll": {}
+        }
+      },
       "Catalog.Web.API/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Catalog.Data": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "compile": {
@@ -6172,6 +6183,11 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Catalog.Data/1.0.0": {
+      "type": "project",
+      "path": "../Catalog.Data/Catalog.Data.csproj",
+      "msbuildProject": "../Catalog.Data/Catalog.Data.csproj"
     },
     "Catalog.Web.API/1.0.0": {
       "type": "project",

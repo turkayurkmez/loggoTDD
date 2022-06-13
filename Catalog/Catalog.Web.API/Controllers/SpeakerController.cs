@@ -1,4 +1,5 @@
-﻿using Catalog.Web.API.Models;
+﻿using Catalog.Data;
+using Catalog.Web.API.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,6 +9,18 @@ namespace Catalog.Web.API.Controllers
     [ApiController]
     public class SpeakerController : ControllerBase
     {
+        private readonly IRepository<Speaker> speakerRepository;
+
+        public SpeakerController(IRepository<Speaker> speakerRepository)
+        {
+            this.speakerRepository = speakerRepository;
+        }
+
+        public SpeakerController()
+        {
+
+        }
+     
         public IActionResult Search(string speakerName)
         {
             var speakers = new List<Speaker>

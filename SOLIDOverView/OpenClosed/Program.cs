@@ -13,9 +13,7 @@ Console.WriteLine(result);
  */
 public abstract class CartTypes
 {
-    public abstract decimal GetDiscountedPrice(decimal price);
-   
-
+    public abstract decimal GetDiscountedPrice(decimal price);  
 }
 
 public class StandartCart : CartTypes

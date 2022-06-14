@@ -16,11 +16,15 @@ namespace Catalog.Web.API.Controllers
             this.speakerRepository = speakerRepository;
         }
 
-        public SpeakerController()
+        [HttpGet]
+        public IActionResult Get()
         {
-
+            var speakers = speakerRepository.GetAll();
+            return Ok(speakers);
         }
+
      
+       [HttpGet]
         public IActionResult Search(string speakerName)
         {
             var speakers = new List<Speaker>

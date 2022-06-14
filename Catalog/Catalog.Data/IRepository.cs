@@ -13,6 +13,8 @@ namespace Catalog.Data
         void Add(T item);
         void Update(T item);
         void Delete(int id);
+
+      
     }
 
     public interface IEntity

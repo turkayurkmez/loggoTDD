@@ -32,7 +32,9 @@ namespace Catalog.Tests
         readonly SpeakerController controller;
         public SpeakerControllerTest()
         {
-            controller = new SpeakerController();
+            controller = new SpeakerController(new FakeDependency());
+            //MOCK: Anlamı, çorap kukla.... Mock library kullanarak; FakeDependency gibi nesneleri var edebiirsiniz! 
+            
         }
 
 

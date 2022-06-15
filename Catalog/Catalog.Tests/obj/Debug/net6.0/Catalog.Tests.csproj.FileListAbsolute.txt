@@ -1,4 +1,9 @@
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\obj\Debug\net6.0\Catalog.Tests.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\obj\Debug\net6.0\Catalog.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\obj\Debug\net6.0\Catalog.Tests.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\obj\Debug\net6.0\Catalog.Tests.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\obj\Debug\net6.0\Catalog.Tests.csproj.CoreCompileInputs.cache
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\testhost.dll
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Catalog.Web.API.deps.json
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Catalog.Web.API.runtimeconfig.json
@@ -14,6 +19,7 @@ C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\ne
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Catalog.Tests.runtimeconfig.json
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Catalog.Tests.dll
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Catalog.Tests.pdb
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Castle.Core.dll
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
@@ -22,6 +28,7 @@ C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\ne
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Moq.dll
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\NuGet.Frameworks.dll
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -96,13 +103,14 @@ C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\ne
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Catalog.Business.dll
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Catalog.Data.dll
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Catalog.Entity.dll
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Catalog.Web.API.dll
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Catalog.Web.API.pdb
-C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\obj\Debug\net6.0\Catalog.Tests.csproj.AssemblyReference.cache
-C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\obj\Debug\net6.0\Catalog.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\obj\Debug\net6.0\Catalog.Tests.AssemblyInfoInputs.cache
-C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\obj\Debug\net6.0\Catalog.Tests.AssemblyInfo.cs
-C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\obj\Debug\net6.0\Catalog.Tests.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Catalog.Business.pdb
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Catalog.Data.pdb
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\bin\Debug\net6.0\Catalog.Entity.pdb
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\obj\Debug\net6.0\Catalog.Tests.csproj.CopyComplete
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\obj\Debug\net6.0\Catalog.Tests.dll
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Tests\obj\Debug\net6.0\refint\Catalog.Tests.dll

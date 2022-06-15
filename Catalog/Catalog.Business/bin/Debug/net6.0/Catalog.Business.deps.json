@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Catalog.Business/1.0.0": {
+        "dependencies": {
+          "Catalog.Data": "1.0.0"
+        },
+        "runtime": {
+          "Catalog.Business.dll": {}
+        }
+      },
+      "Catalog.Data/1.0.0": {
+        "dependencies": {
+          "Catalog.Entity": "1.0.0"
+        },
+        "runtime": {
+          "Catalog.Data.dll": {}
+        }
+      },
+      "Catalog.Entity/1.0.0": {
+        "runtime": {
+          "Catalog.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Catalog.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Catalog.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Catalog.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,5 +1,6 @@
-﻿using Catalog.Data;
-using Catalog.Web.API.Models;
+﻿using Catalog.Business;
+using Catalog.Data;
+using Catalog.Entity;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,10 +11,13 @@ namespace Catalog.Web.API.Controllers
     public class SpeakerController : ControllerBase
     {
         private readonly IRepository<Speaker> speakerRepository;
+        private readonly ILogger logger;
+        private readonly ISpeakerService speakerService;
 
-        public SpeakerController(IRepository<Speaker> speakerRepository)
+        public SpeakerController(ISpeakerService speakerService)
         {
-            this.speakerRepository = speakerRepository;
+            this.speakerService = speakerService;
+            //this.logger = logger;
         }
 
         [HttpGet]
@@ -23,34 +27,52 @@ namespace Catalog.Web.API.Controllers
             return Ok(speakers);
         }
 
-     
-       [HttpGet]
+
+        [HttpGet]
         public IActionResult Search(string speakerName)
         {
-            var speakers = new List<Speaker>
-            {
-                new Speaker
-                {
-                     Id = 1,
-                     Name = "Türkay Ürkmez",
-                     Blog = "http://www.turkayurkmez.com",
+            //var speakers = new List<Speaker>
+            //{
+            //    new Speaker
+            //    {
+            //         Id = 1,
+            //         Name = "Mustafa",
+            //         Blog = "http://www.turkayurkmez.com",
 
 
-                },
+            //    },
 
-                   new Speaker
-                {
-                     Id = 2,
-                     Name = "Türkan Ürkmez",
-                     Blog = "http://www.turkayurkmez.com",
+            //       new Speaker
+            //    {
+            //         Id = 2,
+            //         Name = "Murtaza",
+            //         Blog = "http://www.turkayurkmez.com",
 
 
-                }
+            //    },
+            //       new Speaker
+            //    {
+            //         Id = 3,
+            //         Name = "Mahmut",
+            //         Blog = "http://www.turkayurkmez.com",
 
-            };
 
-            var result = speakers.Where(s => s.Name.ToLower().Contains(speakerName.ToLower())).ToList();
+            //    },
+            //       new Speaker
+            //    {
+            //         Id =4,
+            //         Name = "Türkay",
+            //         Blog = "http://www.turkayurkmez.com",
 
+
+            //    }
+
+
+            // };
+
+            //var result = speaker.Where(s => s.Name.ToLower().Contains(speakerName.ToLower())).ToList();
+            var result = speakerService.Search(speakerName);
+           // speakerService.Search(speakerName);
             return Ok(result);
         }
     }

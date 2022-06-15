@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Catalog.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Catalog.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Catalog.Entity.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Catalog.Entity/1.0.0": {
+      "type": "project",
+      "path": "../Catalog.Entity/Catalog.Entity.csproj",
+      "msbuildProject": "../Catalog.Entity/Catalog.Entity.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Catalog.Entity >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\turka\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\turka\\source\\repos\\Kurumsal\\Logo\\TDD\\Catalog\\Catalog.Entity\\Catalog.Entity.csproj": {
+              "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Logo\\TDD\\Catalog\\Catalog.Entity\\Catalog.Entity.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

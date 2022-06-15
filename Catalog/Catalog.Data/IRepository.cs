@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Catalog.Entity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,10 +18,7 @@ namespace Catalog.Data
       
     }
 
-    public interface IEntity
-    {
-        int Id { get; set; }
-    }
+    
 
     public class FakeRepository : IRepository<Product>
     {

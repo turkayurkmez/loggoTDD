@@ -1,5 +1,6 @@
 ﻿using Catalog.Data;
-using Catalog.Web.API.Models;
+using Catalog.Entity;
+
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;

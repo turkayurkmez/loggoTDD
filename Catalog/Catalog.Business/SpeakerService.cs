@@ -14,7 +14,7 @@ namespace Catalog.Business
             this.speakerRepository = speakerRepository;
         }
 
-        
+
         public IEnumerable<Speaker> Search(string speakerName)
         {
 
@@ -24,6 +24,11 @@ namespace Catalog.Business
         public IEnumerable<Speaker> GetAll()
         {
             return speakerRepository.GetAll();
+        }
+
+        public void Add(Speaker speaker)
+        {
+            speakerRepository.Add(speaker);
         }
     }
 }

@@ -20,7 +20,7 @@ namespace Catalog.Data
         private List<Speaker> speakers;
         public FakeRepository()
         {
-           speakers = new List<Speaker>
+            speakers = new List<Speaker>
             {
                 new Speaker {Id = 1, Name = "John"},
                 new Speaker {Id = 2, Name = "Jane"}

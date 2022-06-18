@@ -32,6 +32,17 @@ namespace Catalog.Tests
                 }
             };
         }
+
+        public void Add(Speaker speaker)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public IEnumerable<Speaker> GetAll()
+        {
+            throw new System.NotImplementedException();
+        }
+
         public IEnumerable<Speaker> Search(string speakerName)
         {
             return speakers.Where(x => x.Name.Contains(speakerName));

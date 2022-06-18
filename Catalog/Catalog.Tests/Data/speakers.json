@@ -1,0 +1,40 @@
+[
+  {
+    "Id": 1,
+    "Name": "Türkay Ürkmez",
+    "Bio": "MCT",
+    "Twitter": "@turkayurkmez",
+    "Github": "@turkayurkmez",
+    "Blog": "@turkayurkmez",
+    "Company": "..."
+  },
+  {
+    "Id": 2,
+    "Name": "Derya Yıldız",
+    "Bio": "Python",
+    "Twitter": "@turkayurkmez",
+    "Github": "@turkayurkmez",
+    "Blog": "@turkayurkmez",
+    "Company": "Pegasus"
+  },
+  {
+    "Id": 3,
+    "Name": "Ceren Uysal",
+    "Bio": "Java",
+    "Twitter": "@turkayurkmez",
+    "Github": "@turkayurkmez",
+    "Blog": "@turkayurkmez",
+    "Company": "Logo"
+  }
+]
+
+
+
+/*
+     public string Name { get; set; }
+        public string Bio { get; set; }
+        public string Twitter { get; set; }
+        public string GitHub { get; set; }
+        public string Blog { get; set; }
+        public string Company { get; set; }
+*/

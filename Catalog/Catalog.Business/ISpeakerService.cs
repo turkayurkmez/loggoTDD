@@ -6,5 +6,7 @@ namespace Catalog.Business
     {
         IEnumerable<Speaker> Search(string speakerName);
         IEnumerable<Speaker> GetAll();
+
+        void Add(Speaker speaker);
     }
 }

@@ -1,6 +1,7 @@
 using Catalog.Business;
 using Catalog.Data;
-
+using Catalog.Data.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,8 +11,11 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<ISpeakerRepository, FakeRepository>();
+builder.Services.AddScoped<ISpeakerRepository, EFSpeakerRepository>();
 builder.Services.AddScoped<ISpeakerService, SpeakerService>();
+
+var connectionString = builder.Configuration.GetConnectionString("db");
+builder.Services.AddDbContext<SpeakersDbContext>(opt => opt.UseSqlServer(connectionString));
 
 var app = builder.Build();
 
@@ -29,3 +33,9 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
+public partial class Program
+{
+    
+}

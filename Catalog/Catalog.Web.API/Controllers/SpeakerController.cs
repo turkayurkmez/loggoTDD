@@ -29,9 +29,16 @@ namespace Catalog.Web.API.Controllers
 
         [HttpGet("Search/{speakerName}")]
         public IActionResult Search(string speakerName)
-        {          
-            var result = speakerService.Search(speakerName);          
+        {
+            var result = speakerService.Search(speakerName);
             return Ok(result);
+        }
+
+        [HttpPost]
+        public IActionResult Post([FromBody] Speaker speaker)
+        {
+            speakerService.Add(speaker);
+            return Ok(speaker);
         }
     }
 }

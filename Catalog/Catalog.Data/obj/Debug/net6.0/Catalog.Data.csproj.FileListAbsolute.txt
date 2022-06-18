@@ -13,3 +13,5 @@ C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Data\obj\Debug\net
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Data\obj\Debug\net6.0\refint\Catalog.Data.dll
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Data\obj\Debug\net6.0\Catalog.Data.pdb
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Data\obj\Debug\net6.0\ref\Catalog.Data.dll
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Data\bin\Debug\net6.0\Catalog.Data.runtimeconfig.json
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Data\obj\Debug\net6.0\Catalog.Data.genruntimeconfig.cache

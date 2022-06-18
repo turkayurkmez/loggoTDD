@@ -1,5 +1,4 @@
 ﻿using Catalog.Web.API.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Catalog.Web.API.Controllers

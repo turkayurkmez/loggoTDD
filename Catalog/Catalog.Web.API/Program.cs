@@ -1,3 +1,4 @@
+using Catalog.Business;
 using Catalog.Data;
 
 
@@ -9,7 +10,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<IRepository<Product>, FakeRepository>();
+builder.Services.AddScoped<ISpeakerRepository, FakeRepository>();
+builder.Services.AddScoped<ISpeakerService, SpeakerService>();
 
 var app = builder.Build();
 

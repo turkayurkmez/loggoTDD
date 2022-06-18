@@ -86,7 +86,7 @@ namespace Catalog.Tests
         [Theory(Skip = "Fake data içerisinde, Türkay değeri kaldırıldı")]
         [InlineData("tÜrkay ürkmez")]
         [InlineData("Türkay ÜRKMEZ")]
-      
+
         public void Given_InSensitive_Match_Then_One_Item_In_List(string name)
         {
 
@@ -112,7 +112,7 @@ namespace Catalog.Tests
 
             //Act:
             var controller = new SpeakerController(testSpeakerService);
-            
+
             Assert.NotNull(controller);
         }
 
@@ -127,16 +127,16 @@ namespace Catalog.Tests
         [Fact]
         public void Given_Speaker_Service_Then_Result_Is_Returned()
         {
-           
+
             var result = controller.Search("Türkay") as OkObjectResult;
             Assert.NotNull(result);
             var speakers = ((IEnumerable<Speaker>)result.Value).ToList();
 
 
-            
+
             Assert.Single<Speaker>(speakers);
         }
-        
+
 
 
 

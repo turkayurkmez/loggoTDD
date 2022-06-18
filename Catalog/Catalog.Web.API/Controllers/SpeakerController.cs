@@ -1,7 +1,6 @@
 ﻿using Catalog.Business;
 using Catalog.Data;
 using Catalog.Entity;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Catalog.Web.API.Controllers
@@ -23,56 +22,15 @@ namespace Catalog.Web.API.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var speakers = speakerRepository.GetAll();
+            var speakers = speakerService.GetAll();
             return Ok(speakers);
         }
 
 
-        [HttpGet]
+        [HttpGet("Search/{speakerName}")]
         public IActionResult Search(string speakerName)
-        {
-            //var speakers = new List<Speaker>
-            //{
-            //    new Speaker
-            //    {
-            //         Id = 1,
-            //         Name = "Mustafa",
-            //         Blog = "http://www.turkayurkmez.com",
-
-
-            //    },
-
-            //       new Speaker
-            //    {
-            //         Id = 2,
-            //         Name = "Murtaza",
-            //         Blog = "http://www.turkayurkmez.com",
-
-
-            //    },
-            //       new Speaker
-            //    {
-            //         Id = 3,
-            //         Name = "Mahmut",
-            //         Blog = "http://www.turkayurkmez.com",
-
-
-            //    },
-            //       new Speaker
-            //    {
-            //         Id =4,
-            //         Name = "Türkay",
-            //         Blog = "http://www.turkayurkmez.com",
-
-
-            //    }
-
-
-            // };
-
-            //var result = speaker.Where(s => s.Name.ToLower().Contains(speakerName.ToLower())).ToList();
-            var result = speakerService.Search(speakerName);
-           // speakerService.Search(speakerName);
+        {          
+            var result = speakerService.Search(speakerName);          
             return Ok(result);
         }
     }

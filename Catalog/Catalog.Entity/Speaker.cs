@@ -11,6 +11,6 @@ namespace Catalog.Entity
         public string Blog { get; set; }
         public string Company { get; set; }
         //YAGNI: You Ain't Gonna Need It
-        
+
     }
 }

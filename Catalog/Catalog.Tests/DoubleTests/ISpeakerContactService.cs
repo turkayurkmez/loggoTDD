@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Catalog.Tests
+namespace Catalog.Tests.DoubleTests
 {
     public interface ISpeakerContactService
     {
@@ -31,7 +27,7 @@ namespace Catalog.Tests
         {
             MessageToSpeakerMethodHasBeenCalled = true;
             MessageToSpeakerCallCount++;
-            
+
         }
     }
 
@@ -41,6 +37,6 @@ namespace Catalog.Tests
 
     }
 
-    
+
 }
-  
+

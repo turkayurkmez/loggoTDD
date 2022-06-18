@@ -1,9 +1,5 @@
-﻿using Catalog.Entity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Catalog.Data;
+using Catalog.Entity;
 
 namespace Catalog.Business
 {
@@ -11,38 +7,23 @@ namespace Catalog.Business
     {
 
         private List<Speaker> speakers;
-        public SpeakerService()
+        private readonly ISpeakerRepository speakerRepository;
+
+        public SpeakerService(ISpeakerRepository speakerRepository)
         {
-            speakers = new List<Speaker>()
-            {
-                new Speaker
-                {
-                    Id = 1,
-                    Name = "Mustafa",
-                    Blog = "http://www.turkayurkmez.com",
-
-                },
-
-                new Speaker
-                {
-                    Id = 2,
-                    Name = "Murtaza",
-                    Blog = "http://www.turkayurkmez.com",
-
-                },
-                new Speaker
-                {
-                    Id = 3,
-                    Name = "Türkay",
-                    Blog = "http://www.turkayurkmez.com",
-
-                },
-            };
+            this.speakerRepository = speakerRepository;
         }
+
+        
         public IEnumerable<Speaker> Search(string speakerName)
         {
 
-            return speakers.Where(x => x.Name.ToLower().Contains(speakerName.ToLower()));
+            return speakerRepository.SearchSpeakers(speakerName);
+        }
+
+        public IEnumerable<Speaker> GetAll()
+        {
+            return speakerRepository.GetAll();
         }
     }
 }

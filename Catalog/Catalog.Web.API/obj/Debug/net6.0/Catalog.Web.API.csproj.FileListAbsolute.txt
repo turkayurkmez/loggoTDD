@@ -30,3 +30,4 @@ C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Web.API\obj\Debug\
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Web.API\obj\Debug\net6.0\Catalog.Web.API.pdb
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Web.API\obj\Debug\net6.0\Catalog.Web.API.genruntimeconfig.cache
 C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Web.API\obj\Debug\net6.0\ref\Catalog.Web.API.dll
+C:\Users\turka\source\repos\Kurumsal\Logo\TDD\Catalog\Catalog.Web.API\obj\Debug\net6.0\Catalog.Web.API.MvcApplicationPartsAssemblyInfo.cs

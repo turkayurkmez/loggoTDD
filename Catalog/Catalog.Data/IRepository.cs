@@ -1,9 +1,4 @@
 ﻿using Catalog.Entity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Catalog.Data
 {
@@ -15,16 +10,23 @@ namespace Catalog.Data
         void Update(T item);
         void Delete(int id);
 
-      
+
     }
 
-    
 
-    public class FakeRepository : IRepository<Product>
+
+    public class FakeRepository : ISpeakerRepository
     {
-        private List<Product> products = new List<Product>();
-
-        public void Add(Product item)
+        private List<Speaker> speakers;
+        public FakeRepository()
+        {
+           speakers = new List<Speaker>
+            {
+                new Speaker {Id = 1, Name = "John"},
+                new Speaker {Id = 2, Name = "Jane"}
+            };
+        }
+        public void Add(Speaker item)
         {
             throw new NotImplementedException();
         }
@@ -34,17 +36,22 @@ namespace Catalog.Data
             throw new NotImplementedException();
         }
 
-        public Product Get(int id)
+        public Speaker Get(int id)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Product> GetAll()
+        public IEnumerable<Speaker> GetAll()
         {
-            throw new NotImplementedException();
+            return speakers;
         }
 
-        public void Update(Product item)
+        public IQueryable<Speaker> SearchSpeakers(string name)
+        {
+            return speakers.Where(x => x.Name.Contains(name)).AsQueryable();
+        }
+
+        public void Update(Speaker item)
         {
             throw new NotImplementedException();
         }

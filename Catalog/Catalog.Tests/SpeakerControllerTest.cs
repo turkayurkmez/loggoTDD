@@ -42,7 +42,7 @@ namespace Catalog.Tests
             speakerServiceMock.Setup(x => x.Search(It.IsAny<string>()))
                               .Returns(() => new List<Speaker> { speaker });
 
-            controller = new SpeakerController(speakerServiceMock.Object);
+            controller = new SpeakerController(new FakeSpeakerService());
 
 
 
@@ -108,10 +108,11 @@ namespace Catalog.Tests
         [Fact]
         public void ItAcceptInterface()
         {
-            ISpeakerService testSpeakerService = new TestSpeakerService();
+            ISpeakerService testSpeakerService = new FakeSpeakerService();
 
             //Act:
             var controller = new SpeakerController(testSpeakerService);
+            
             Assert.NotNull(controller);
         }
 
